@@ -69,7 +69,7 @@ button {
 }
 
 .wrapper {
-	height: 400px;
+	height: 420px;
 	width: 320px;
 	position: relative;
 	transform-style: preserve-3d;
@@ -149,6 +149,9 @@ button {
 	background: linear-gradient(375deg, #1cc7d0, #2ede98);
 	transition: all 0.5s ease;
 }
+.back-face .squre-img img{
+	border-radius: 0%;
+}
 
 .back-face ul a:hover {
 	color: #1cc7d0;
@@ -215,6 +218,9 @@ button:hover {
         position: absolute;
         top: 36%;
     }
+	.wrapper {
+    height: 480px;
+	}
 }
 @media only screen and (max-width: 420px){
     h1{
@@ -228,6 +234,9 @@ button:hover {
         position: absolute;
         height: 80%;
     }
+	.wrapper {
+    height: 530px;
+	}
 }
 @media only screen and (max-width: 370px){
     h1{
@@ -242,5 +251,8 @@ button:hover {
         font-size: 14px;
         padding: 15px 30px;
     }
+	.wrapper {
+    height: 600px;
+	}	
 }
 
